@@ -36,7 +36,7 @@ public class CraftFlowersGui implements InventoryProvider {
                 .provider(new CraftFlowersGui(flowerPot))
                 .size(6, 9)
                 .manager(CraftFlowers.getInventoryManager())
-                .title(CraftFlowers.arrow + "§2CraftFlowers")
+                .title(CraftFlowers.arrow + "§2花盆")
                 .build().open(player);
         player.playSound(player.getLocation(), Sound.BLOCK_BARREL_OPEN, 1, 1);
     }
@@ -72,17 +72,17 @@ public class CraftFlowersGui implements InventoryProvider {
         }));
 
         contents.set(4, 3, ClickableItem.of(new ItemBuilder(Material.PLAYER_HEAD)
-                .setDisplayName(CraftFlowers.arrow + "§2Create flower")
+                .setDisplayName(CraftFlowers.arrow + "§2創建花盆")
                 .setTextureId("b056bc1244fcff99344f12aba42ac23fee6ef6e3351d27d273c1572531f").build(), event -> {
             if(flowerPot.getFlowers().size() == 0) {
-                player.sendMessage(CraftFlowers.prefix + "§cYou cannot create an empty flower!");
+                player.sendMessage(CraftFlowers.prefix + "§c你不能創建一個空花盆!");
                 return;
             }
             player.getInventory().addItem(flowerPot.createItemStack());
         }));
 
         contents.set(4, 4, ClickableItem.of(new ItemBuilder(Material.PLAYER_HEAD)
-                .setDisplayName(CraftFlowers.arrow + "§2Remove from top")
+                .setDisplayName(CraftFlowers.arrow + "§2從頂部移除")
                 .setTextureId("a9db1760dab1ed801a594a63cdc4a2e3b3e1d12e8056a702044774a52b1d18").build(), event -> {
             List<Flower> flowers = flowerPot.getFlowers();
             if(flowers.size() == 0)
@@ -93,7 +93,7 @@ public class CraftFlowersGui implements InventoryProvider {
 
 
         contents.set(4, 5, ClickableItem.of(new ItemBuilder(Material.PLAYER_HEAD)
-                .setDisplayName(CraftFlowers.arrow + "§2Clear all")
+                .setDisplayName(CraftFlowers.arrow + "§2全部清除")
                 .setTextureId("3cc470ae2631efdfaf967b369413bc2451cd7a39465da7836a6c7a14e877").build(), event -> {
             flowerPot.clearFlowers();
             fillPotRow(flowerPot, contents);
