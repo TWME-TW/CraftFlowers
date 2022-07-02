@@ -19,7 +19,7 @@ public class AgingFlower extends Flower {
 
     @Override
     public String getDisplayName() {
-        return super.getDisplayName() + "§8(§7Age " + age + "§8)";
+        return super.getDisplayName() + "§8(§7成長階段 " + age + "§8)";
     }
 
     @Override
