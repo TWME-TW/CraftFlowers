@@ -27,7 +27,7 @@ public class SavedFlowerListGui implements InventoryProvider {
                 .provider(new SavedFlowerListGui(pots))
                 .size(6, 9)
                 .manager(CraftFlowers.getInventoryManager())
-                .title(CraftFlowers.arrow + "§2Saved Flowerpots")
+                .title(CraftFlowers.arrow + "§2已儲存的花盆")
                 .build().open(player);
         player.playSound(player.getLocation(), Sound.BLOCK_BARREL_OPEN, 1, 1);
     }
