@@ -9,11 +9,11 @@ public class FlowerRegistry {
     private static final List<Flower> flowers = new ArrayList<>();
 
     static {
-        registerFlower(new Flower(Material.SUNFLOWER, "§2Sunflower"));
+        registerFlower(new Flower(Material.SUNFLOWER, "§2向日葵"));
         registerFlower(new Flower(Material.SUGAR_CANE, "§2Sugar Canes"));
-        registerFlower(new Flower(Material.LILAC, "§2Lilac"));
-        registerFlower(new Flower(Material.ROSE_BUSH, "§2Rose Bush"));
-        registerFlower(new Flower(Material.PEONY, "§2Peony"));
+        registerFlower(new Flower(Material.LILAC, "§2紫丁香"));
+        registerFlower(new Flower(Material.ROSE_BUSH, "§2玫瑰叢"));
+        registerFlower(new Flower(Material.PEONY, "§2牡丹花"));
         registerFlower(new Flower(Material.TALL_GRASS, "§2Double Tallgrass"));
         registerFlower(new Flower(Material.LARGE_FERN, "§2Large Fern"));
         registerFlower(new Flower(Material.OAK_SAPLING, "§2Oak Sapling"));
@@ -25,19 +25,19 @@ public class FlowerRegistry {
         registerFlower(new Flower(Material.DEAD_BUSH, "§2Dead Bush"));
         registerFlower(new Flower(Material.GRASS, "§2Grass"));
         registerFlower(new Flower(Material.FERN, "§2Fern"));
-        registerFlower(new Flower(Material.DANDELION, "§2Dandelion"));
-        registerFlower(new Flower(Material.POPPY, "§2Poppy"));
-        registerFlower(new Flower(Material.BLUE_ORCHID, "§2Blue Orchid"));
-        registerFlower(new Flower(Material.ALLIUM, "§2Allium"));
-        registerFlower(new Flower(Material.AZURE_BLUET, "§2Azure Bluet"));
-        registerFlower(new Flower(Material.RED_TULIP, "§2Red Tulip"));
-        registerFlower(new Flower(Material.ORANGE_TULIP, "§2Orange Tulip"));
-        registerFlower(new Flower(Material.WHITE_TULIP, "§2White Tulip"));
-        registerFlower(new Flower(Material.PINK_TULIP, "§2Pink Tulip"));
-        registerFlower(new Flower(Material.OXEYE_DAISY, "§2Oxeye Daisy"));
-        registerFlower(new Flower(Material.CORNFLOWER,"§2Cornflower"));
-        registerFlower(new Flower(Material.LILY_OF_THE_VALLEY, "§2Lily of the Valley"));
-        registerFlower(new Flower(Material.WITHER_ROSE, "§2Wither Rose"));
+        registerFlower(new Flower(Material.DANDELION, "§2蒲公英"));
+        registerFlower(new Flower(Material.POPPY, "§2罌粟"));
+        registerFlower(new Flower(Material.BLUE_ORCHID, "§2藍色蝴蝶蘭"));
+        registerFlower(new Flower(Material.ALLIUM, "§2紫紅球花"));
+        registerFlower(new Flower(Material.AZURE_BLUET, "§2雛草"));
+        registerFlower(new Flower(Material.RED_TULIP, "§2紅色鬱金香"));
+        registerFlower(new Flower(Material.ORANGE_TULIP, "§2橙色鬱金香"));
+        registerFlower(new Flower(Material.WHITE_TULIP, "§2白色鬱金香"));
+        registerFlower(new Flower(Material.PINK_TULIP, "§2粉紅色鬱金香"));
+        registerFlower(new Flower(Material.OXEYE_DAISY, "§2雛菊"));
+        registerFlower(new Flower(Material.CORNFLOWER,"§2矢車菊"));
+        registerFlower(new Flower(Material.LILY_OF_THE_VALLEY, "§2鈴蘭"));
+        registerFlower(new Flower(Material.WITHER_ROSE, "§2凋零玫瑰"));
         registerFlower(new Flower(Material.BROWN_MUSHROOM, "§2Mushroom"));
         registerFlower(new Flower(Material.RED_MUSHROOM, "§2Mushroom"));
         registerFlower(new Flower(Material.CRIMSON_FUNGUS, "§2Crimson Fungus"));
