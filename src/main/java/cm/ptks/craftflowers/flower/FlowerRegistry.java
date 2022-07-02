@@ -16,15 +16,15 @@ public class FlowerRegistry {
         registerFlower(new Flower(Material.PEONY, "§2牡丹花"));
         registerFlower(new Flower(Material.TALL_GRASS, "§2芒草"));
         registerFlower(new Flower(Material.LARGE_FERN, "§2大型蕨類"));
-        registerFlower(new Flower(Material.OAK_SAPLING, "§2Oak Sapling"));
-        registerFlower(new Flower(Material.SPRUCE_SAPLING, "§2Spruce Sapling"));
-        registerFlower(new Flower(Material.BIRCH_SAPLING, "§2Birch Sapling"));
-        registerFlower(new Flower(Material.JUNGLE_SAPLING, "§2Jungle Sapling"));
-        registerFlower(new Flower(Material.ACACIA_SAPLING, "§2Acacia Sapling"));
-        registerFlower(new Flower(Material.DARK_OAK_SAPLING, "§2Dark Oak Sapling"));
-        registerFlower(new Flower(Material.DEAD_BUSH, "§2Dead Bush"));
-        registerFlower(new Flower(Material.GRASS, "§2Grass"));
-        registerFlower(new Flower(Material.FERN, "§2Fern"));
+        registerFlower(new Flower(Material.OAK_SAPLING, "§2橡木樹苗"));
+        registerFlower(new Flower(Material.SPRUCE_SAPLING, "§2杉木樹苗"));
+        registerFlower(new Flower(Material.BIRCH_SAPLING, "§2樺木樹苗"));
+        registerFlower(new Flower(Material.JUNGLE_SAPLING, "§2叢林木樹苗"));
+        registerFlower(new Flower(Material.ACACIA_SAPLING, "§2相思木樹苗"));
+        registerFlower(new Flower(Material.DARK_OAK_SAPLING, "§2黑橡木樹苗"));
+        registerFlower(new Flower(Material.DEAD_BUSH, "§2枯灌木"));
+        registerFlower(new Flower(Material.GRASS, "§2草"));
+        registerFlower(new Flower(Material.FERN, "§2蕨"));
         registerFlower(new Flower(Material.DANDELION, "§2蒲公英"));
         registerFlower(new Flower(Material.POPPY, "§2罌粟"));
         registerFlower(new Flower(Material.BLUE_ORCHID, "§2藍色蝴蝶蘭"));
@@ -38,11 +38,11 @@ public class FlowerRegistry {
         registerFlower(new Flower(Material.CORNFLOWER,"§2矢車菊"));
         registerFlower(new Flower(Material.LILY_OF_THE_VALLEY, "§2鈴蘭"));
         registerFlower(new Flower(Material.WITHER_ROSE, "§2凋零玫瑰"));
-        registerFlower(new Flower(Material.BROWN_MUSHROOM, "§2Mushroom"));
-        registerFlower(new Flower(Material.RED_MUSHROOM, "§2Mushroom"));
-        registerFlower(new Flower(Material.CRIMSON_FUNGUS, "§2Crimson Fungus"));
-        registerFlower(new Flower(Material.WARPED_FUNGUS, "§2Warped Fungus"));
-        registerFlower(new Flower(Material.FLOWER_POT, "§2Flower Pot"));
+        registerFlower(new Flower(Material.BROWN_MUSHROOM, "§2棕色蘑菇"));
+        registerFlower(new Flower(Material.RED_MUSHROOM, "§2紅色蘑菇"));
+        registerFlower(new Flower(Material.CRIMSON_FUNGUS, "§2緋紅蕈菇"));
+        registerFlower(new Flower(Material.WARPED_FUNGUS, "§2扭曲蕈菇"));
+        registerFlower(new Flower(Material.FLOWER_POT, "§2花盆"));
 
         if (isValidMaterial("AZALEA") /* 1.17 or newer*/) {
             registerFlower(new Flower(Material.AZALEA, "§2Azalea"));
@@ -58,7 +58,7 @@ public class FlowerRegistry {
         if (isValidMaterial("MANGROVE_LEAVES" /* 1.19*/)) {
             registerFlower(new Flower(Material.MANGROVE_ROOTS, "§2Mangrove Roots"));
             registerFlower(new Flower(Material.MANGROVE_LEAVES, "§2Mangrove Leaves"));
-            registerFlower(new Flower(Material.MANGROVE_PROPAGULE, "§2Mangrove Propagule"));
+            registerFlower(new Flower(Material.MANGROVE_PROPAGULE, "§2紅樹林木胎生苗"));
         }
 
         registerFlower(new Flower(Material.OAK_LEAVES, "§2Oak Leaves"));
