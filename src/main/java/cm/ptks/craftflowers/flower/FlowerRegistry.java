@@ -10,12 +10,12 @@ public class FlowerRegistry {
 
     static {
         registerFlower(new Flower(Material.SUNFLOWER, "§2向日葵"));
-        registerFlower(new Flower(Material.SUGAR_CANE, "§2Sugar Canes"));
+        registerFlower(new Flower(Material.SUGAR_CANE, "§2甘蔗"));
         registerFlower(new Flower(Material.LILAC, "§2紫丁香"));
         registerFlower(new Flower(Material.ROSE_BUSH, "§2玫瑰叢"));
         registerFlower(new Flower(Material.PEONY, "§2牡丹花"));
-        registerFlower(new Flower(Material.TALL_GRASS, "§2Double Tallgrass"));
-        registerFlower(new Flower(Material.LARGE_FERN, "§2Large Fern"));
+        registerFlower(new Flower(Material.TALL_GRASS, "§2芒草"));
+        registerFlower(new Flower(Material.LARGE_FERN, "§2大型蕨類"));
         registerFlower(new Flower(Material.OAK_SAPLING, "§2Oak Sapling"));
         registerFlower(new Flower(Material.SPRUCE_SAPLING, "§2Spruce Sapling"));
         registerFlower(new Flower(Material.BIRCH_SAPLING, "§2Birch Sapling"));
