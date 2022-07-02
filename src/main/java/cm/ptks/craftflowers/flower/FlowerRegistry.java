@@ -45,28 +45,28 @@ public class FlowerRegistry {
         registerFlower(new Flower(Material.FLOWER_POT, "§2花盆"));
 
         if (isValidMaterial("AZALEA") /* 1.17 or newer*/) {
-            registerFlower(new Flower(Material.AZALEA, "§2Azalea"));
-            registerFlower(new Flower(Material.FLOWERING_AZALEA, "§2Flowering Azalea"));
-            registerFlower(new Flower(Material.AZALEA_LEAVES, "§2Azalea Leaves"));
-            registerFlower(new Flower(Material.FLOWERING_AZALEA_LEAVES, "§2Flowering Azalea Leaves"));
-            registerFlower(new Flower(Material.GLOW_BERRIES, "§2Glow Berries", Material.CAVE_VINES));
-            registerFlower(new Flower(Material.BIG_DRIPLEAF, "§2Big Dripleaf"));
-            registerFlower(new Flower(Material.BIG_DRIPLEAF, "§2Big Dripleaf Stem", Material.BIG_DRIPLEAF_STEM));
-            registerFlower(new Flower(Material.SMALL_DRIPLEAF, "§2Small Dripleaf"));
+            registerFlower(new Flower(Material.AZALEA, "§2杜鵑叢"));
+            registerFlower(new Flower(Material.FLOWERING_AZALEA, "§2開花的杜鵑叢"));
+            registerFlower(new Flower(Material.AZALEA_LEAVES, "§2杜鵑葉"));
+            registerFlower(new Flower(Material.FLOWERING_AZALEA_LEAVES, "§2開花的杜鵑葉"));
+            registerFlower(new Flower(Material.GLOW_BERRIES, "§2洞穴藤蔓", Material.CAVE_VINES));
+            registerFlower(new Flower(Material.BIG_DRIPLEAF, "§2大懸葉草"));
+            registerFlower(new Flower(Material.BIG_DRIPLEAF, "§2大懸葉草椗", Material.BIG_DRIPLEAF_STEM));
+            registerFlower(new Flower(Material.SMALL_DRIPLEAF, "§2小懸葉草"));
         }
         
         if (isValidMaterial("MANGROVE_LEAVES" /* 1.19*/)) {
-            registerFlower(new Flower(Material.MANGROVE_ROOTS, "§2Mangrove Roots"));
-            registerFlower(new Flower(Material.MANGROVE_LEAVES, "§2Mangrove Leaves"));
+            registerFlower(new Flower(Material.MANGROVE_ROOTS, "§2紅樹林木根"));
+            registerFlower(new Flower(Material.MANGROVE_LEAVES, "§2紅樹林木樹葉"));
             registerFlower(new Flower(Material.MANGROVE_PROPAGULE, "§2紅樹林木胎生苗"));
         }
 
-        registerFlower(new Flower(Material.OAK_LEAVES, "§2Oak Leaves"));
-        registerFlower(new Flower(Material.SPRUCE_LEAVES, "§2Spruce Leaves"));
-        registerFlower(new Flower(Material.BIRCH_LEAVES, "§2Birch Leaves"));
-        registerFlower(new Flower(Material.JUNGLE_LEAVES, "§2Jungle Leaves"));
-        registerFlower(new Flower(Material.ACACIA_LEAVES, "§2Acacia Leaves"));
-        registerFlower(new Flower(Material.DARK_OAK_LEAVES, "§2Dark Oak Leaves"));
+        registerFlower(new Flower(Material.OAK_LEAVES, "§2橡木樹葉"));
+        registerFlower(new Flower(Material.SPRUCE_LEAVES, "§2杉木樹葉"));
+        registerFlower(new Flower(Material.BIRCH_LEAVES, "§2樺木樹葉"));
+        registerFlower(new Flower(Material.JUNGLE_LEAVES, "§2叢林木樹葉"));
+        registerFlower(new Flower(Material.ACACIA_LEAVES, "§2相思木樹葉"));
+        registerFlower(new Flower(Material.DARK_OAK_LEAVES, "§2黑橡木樹葉"));
         registerFlower(new Flower(Material.LILY_PAD, "§2Lily Pad"));
         registerFlower(new Flower(Material.VINE, "§2Vines"));
         registerFlower(new Flower(Material.CACTUS, "§2Cactus"));
