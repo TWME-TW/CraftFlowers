@@ -50,7 +50,7 @@ public class BlockPlaceListener implements Listener {
             return;
         event.setCancelled(true);
         if (!player.hasPermission("craftflowers.place")) {
-            player.sendMessage(CraftFlowers.prefix + "§cYou don't have the required permissions to place this Flower!");
+            player.sendMessage(CraftFlowers.prefix + "§c您沒有放置此花盆所需的權限!");
             return;
         }
 
@@ -73,7 +73,7 @@ public class BlockPlaceListener implements Listener {
                 missingFlowerMap.put(flower.getDisplayName(), integer);
             }
             if(!missingFlowerMap.isEmpty()) {
-                player.sendMessage(CraftFlowers.prefix + "§7You cannot place this flower since you are missing the following items:");
+                player.sendMessage(CraftFlowers.prefix + "§7您無法放置此花，因為您缺少以下物品:");
                 missingFlowerMap.forEach((flower, integer) -> player.sendMessage(CraftFlowers.arrow + flower
                                                                                  + " §8(§7x" + integer + "§8)"));
                 return;
