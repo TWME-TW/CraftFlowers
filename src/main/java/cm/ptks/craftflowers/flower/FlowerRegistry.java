@@ -85,48 +85,48 @@ public class FlowerRegistry {
         registerFlower(new Flower(Material.WARPED_ROOTS, "§2扭曲蕈根"));
         registerFlower(new Flower(Material.NETHER_SPROUTS, "§2地獄芽"));
         registerFlower(new Flower(Material.TWISTING_VINES, "§2扭曲藤"));
-        registerFlower(new Flower(Material.BRAIN_CORAL, "§2Brain Coral"));
-        registerFlower(new Flower(Material.BUBBLE_CORAL, "§2Bubble Coral"));
-        registerFlower(new Flower(Material.FIRE_CORAL, "§2Fire Coral"));
-        registerFlower(new Flower(Material.HORN_CORAL, "§2Horn Coral"));
-        registerFlower(new Flower(Material.TUBE_CORAL, "§2Tube Coral"));
+        registerFlower(new Flower(Material.BRAIN_CORAL, "§2腦珊瑚"));
+        registerFlower(new Flower(Material.BUBBLE_CORAL, "§2氣泡珊瑚"));
+        registerFlower(new Flower(Material.FIRE_CORAL, "§2火珊瑚"));
+        registerFlower(new Flower(Material.HORN_CORAL, "§2角珊瑚"));
+        registerFlower(new Flower(Material.TUBE_CORAL, "§2管珊瑚"));
         registerFlower(new Flower(Material.BRAIN_CORAL_FAN, "§2扇狀腦珊瑚"));
         registerFlower(new Flower(Material.BUBBLE_CORAL_FAN, "§2扇狀氣泡珊瑚"));
         registerFlower(new Flower(Material.FIRE_CORAL_FAN, "§2扇狀火珊瑚"));
         registerFlower(new Flower(Material.HORN_CORAL_FAN, "§2扇狀角珊瑚"));
         registerFlower(new Flower(Material.TUBE_CORAL_FAN, "§2扇狀管珊瑚"));
 
-        registerFlower(new FlowerGroup(Material.WHEAT, "§2Wheat Seeds", Arrays.asList(
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 0),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 1),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 2),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 3),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 4),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 5),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 6),
-                new AgingFlower(Material.WHEAT, "§2Wheat Seeds", 7)
+        registerFlower(new FlowerGroup(Material.WHEAT, "§2小麥種子", Arrays.asList(
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 0),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 1),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 2),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 3),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 4),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 5),
+                new AgingFlower(Material.WHEAT, "§2小麥種子", 6),
+                new AgingFlower(Material.WHEAT, "§2小麥種子s", 7)
         )));
 
-        registerFlower(new FlowerGroup(Material.POTATO, "§2Potato", Arrays.asList(
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 0),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 1),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 2),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 3),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 4),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 5),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 6),
-                new AgingFlower(Material.POTATO, "§2Potato", Material.POTATOES, 7)
+        registerFlower(new FlowerGroup(Material.POTATO, "§2馬鈴薯", Arrays.asList(
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 0),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 1),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 2),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 3),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 4),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 5),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 6),
+                new AgingFlower(Material.POTATO, "§2馬鈴薯", Material.POTATOES, 7)
         )));
 
-        registerFlower(new FlowerGroup(Material.CARROT, "§2Carrot", Arrays.asList(
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 0),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 1),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 2),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 3),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 4),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 5),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 6),
-                new AgingFlower(Material.CARROT, "§2Carrot", Material.CARROTS, 7)
+        registerFlower(new FlowerGroup(Material.CARROT, "§2胡蘿蔔", Arrays.asList(
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 0),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 1),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 2),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 3),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 4),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 5),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 6),
+                new AgingFlower(Material.CARROT, "§2胡蘿蔔", Material.CARROTS, 7)
         )));
     }
 
